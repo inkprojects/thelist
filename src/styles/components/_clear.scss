@@ -1,0 +1,27 @@
+
+.form__clear-text {
+    margin: 4rem 0rem;
+    background-color: lighten($warning, 10%);
+    color: $light;
+    width: 100%;
+    padding: 1.2rem;
+    border: none;
+    border-radius: 0.5rem;
+    border-bottom: 0.5rem solid darken($warning, 10%);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.form__clear-text:hover {
+    background-color: lighten($warning, 5%);
+    border-bottom: 0.5rem solid darken($warning, 10%);
+
+}
+
+.form__empty-message {
+    text-align: left;
+    font-size: $medium; 
+    font-weight: bold;
+    color: $light;
+    opacity: 0.7;
+}

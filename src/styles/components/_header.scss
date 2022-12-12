@@ -1,0 +1,25 @@
+.header {
+    margin-bottom: 3.2rem;
+    background-color: $dark-bg;
+    margin: 0;
+    padding: 0.1rem 1rem;
+}
+
+.header_heading {
+    color: $light;
+}
+
+
+
+@media (max-width: 45rem) {
+    h1{
+        font-size: $small;
+    }
+    .header {
+        margin-bottom: 0rem;
+    }
+    .button {
+        font-size: $small;
+    }
+}
+

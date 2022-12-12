@@ -1,0 +1,21 @@
+$dark-bg: rgb(30, 36, 44);
+$light: #FEFCF5;
+$dark: rgb(73, 73, 98);
+$blue: rgb(21, 88, 111);
+
+$warning: rgba(189, 45, 45, 0.902);
+
+$small: 1.4rem;
+$medium: 2.4rem;
+$large: 3.2rem;
+
+html { font-size: 62.5%; }
+
+body { 
+    font-size: 1.6rem;
+    font-family: 'Verdana';
+    background-color: $dark;
+}
+
+h1 { font-size: 3.2rem }
+

@@ -1,0 +1,79 @@
+.big-button {
+    color: $light;
+    background-color: $blue;
+    border:none;
+    border-bottom: 0.5rem solid darken($blue, 10%);
+    border-radius: 0.8rem;
+    width: 100%;
+    font-weight: bold;
+    font-size: $medium;
+    padding: 1.1rem;
+    cursor:pointer;
+}
+
+.big-button:hover {
+    background-color: lighten($blue, 5%);
+    border-bottom: 0.5rem solid lighten($blue, 15%);
+}
+
+.big-button:disabled {
+    opacity: 0.5;
+}
+
+.button {
+    color: $light;
+    background-color: $blue;
+    border:none;
+    border-radius: 0.8rem;
+    border-bottom: 0.5rem solid darken($blue, 10%);
+    font-weight: bold;
+    font-size: $medium;
+    padding: 1.1rem;
+    cursor:pointer;
+}
+
+.button:hover {
+    background-color: lighten($blue, 5%);
+    border-bottom: 0.5rem solid lighten($blue, 15%);
+}
+
+.button-text-only {
+    border:none;
+    font-weight: bold;
+    padding: 1rem;
+    color: $light;
+    background: none;
+    cursor:pointer;
+;
+}
+
+.button-text-only:hover {
+    border:none;
+    font-weight: bold;
+    color: $warning;
+    background: none;
+}
+
+.button__delete-choice {
+    background-color: $warning;
+    border: none;
+    border-radius: 0.5rem;
+    border-bottom: 0.2rem solid darken($warning, 30%);
+    padding: 1rem;
+    color: $light;
+    font-weight: bold;
+    margin-right: 1rem;
+    cursor: pointer;
+    min-width: 6rem;
+}
+
+.button__delete-choice:hover {
+    background-color: lighten($warning, 10%);
+}
+
+
+@media (max-width: 45rem) {
+    .button {
+        font-size: $small;
+    }
+}

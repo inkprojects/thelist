@@ -1,0 +1,27 @@
+.add {
+    display: flex;
+    padding: 1rem 0rem;
+}
+
+.add__input {
+    flex-grow: 1;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+    font-weight: bold;
+    border:none;
+    border-radius: 0.8rem;
+    border-bottom: 0.5rem solid darken($dark-bg, 10%);
+    padding: 0.8rem;
+}
+
+.add__input:hover {
+    background-color: darken($light, 2%);
+}
+
+.add__input:focus {
+    background-color: darken($light, 4%);
+    outline: none;
+    border-bottom: 0.5rem solid lighten($dark-bg, 10%);
+    caret-color: $dark;
+    padding: 1rem;
+}
