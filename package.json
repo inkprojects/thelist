@@ -5,14 +5,14 @@
   "license": "MIT",
   "homepage": "https://inkprojects.github.io/thelist",
   "scripts": {
+    "predeploy": "npm run build-prod",
+    "deploy": "npm run build&&gh-pages -d build",
+
     "serve": "live-server public/",
-    "build": "webpack",
     "dev": "webpack-dev-server",
     "build-dev": "webpack",
     "build-prod": "webpack -p --env production",
-    "start":"node server/server.js",
-    "predeploy": "yarn run build-prod",
-    "deploy": "gh-pages -d public"
+    "build":"node server/server.js"
   },
   "dependencies": {
     "babel-cli": "6.24.1",
