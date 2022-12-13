@@ -10,7 +10,7 @@
     "dev": "webpack-dev-server",
     "build-dev": "webpack",
     "build-prod": "webpack -p --env production",
-    "predeploy": "yarn run build",
+    "predeploy": "yarn run build-prod",
     "deploy":"gh-pages -d public"
   },
   "dependencies": {
